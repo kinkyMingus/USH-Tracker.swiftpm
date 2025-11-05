@@ -19,7 +19,7 @@ let package = Package(
             bundleIdentifier: "clc.USH-Tracker",
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .location),
+            appIcon: .placeholder(icon: .cloud),
             accentColor: .presetColor(.mint),
             supportedDeviceFamilies: [
                 .pad,
