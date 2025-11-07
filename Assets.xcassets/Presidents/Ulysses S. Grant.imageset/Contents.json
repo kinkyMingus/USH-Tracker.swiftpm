@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Ulysses_S_Grant_by_Brady_c1870-restored_(3x4_cropped).jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

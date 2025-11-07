@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959_(cropped)(3).jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

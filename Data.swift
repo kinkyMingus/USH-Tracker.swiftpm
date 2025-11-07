@@ -7,7 +7,7 @@
 
 import Foundation
 
-class President {
+struct Data {
     
     let presidents: [String] = [
         "George Washington",
@@ -58,8 +58,5 @@ class President {
         "Joe Biden"
     ]
     
-    func getRandomPresident() -> String {
-        return something
-    }
     
 }
