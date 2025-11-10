@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var tog = true
     var body: some View {
 
         NavigationStack {
@@ -14,10 +13,10 @@ struct ContentView: View {
                 Spacer()
                 
                 NavigationLink {
-                    MCQView()
+                    PresidentView()
                 } label: {
                     ZStack {
-                        Image("georgeWashington")
+                        Image("georgeWashingtonTitle")
                             .resizable()
                             .blur(radius: 5)
                             .clipShape(Capsule())
@@ -28,7 +27,7 @@ struct ContentView: View {
                 }
                 
                 NavigationLink {
-                    MCQView()
+                    ConstView()
                 } label: {
                     ZStack {
                         Image("consitutionTitle")
