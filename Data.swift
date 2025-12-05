@@ -58,7 +58,7 @@ struct Data {
         "Joe Biden"
     ]
     
-    let amendments: [String: String] = [
+    let const: [String: String] = [
         "1st Amendment": "Freedom of speech, religion, press, assembly, and petition.",
         "2nd Amendment": "Right to keep and bear arms.",
         "3rd Amendment": "No quartering of soldiers in homes without consent.",
@@ -85,10 +85,7 @@ struct Data {
         "24th Amendment": "Bans poll taxes in voting.",
         "25th Amendment": "Defines presidential succession and disability process.",
         "26th Amendment": "Lowers voting age to 18.",
-        "27th Amendment": "Delays congressional pay changes until next term."
-    ]
-
-    let articles: [String: String] = [
+        "27th Amendment": "Delays congressional pay changes until next term.",
         "Article I": "Sets up the Legislative Branch — Congress makes the laws.",
         "Article II": "Sets up the Executive Branch — the President enforces the laws.",
         "Article III": "Sets up the Judicial Branch — the courts interpret the laws.",
@@ -97,5 +94,14 @@ struct Data {
         "Article VI": "Makes the Constitution the supreme law of the land (Supremacy Clause).",
         "Article VII": "Explains how the Constitution was ratified (approved)."
     ]
+    
+    var mutablePresidents: [String] = []
+    
+    var mutableConst: [String:String] = [:]
+    
+    init(){
+        mutablePresidents = presidents
+        mutableConst = const
+    }
     
 }

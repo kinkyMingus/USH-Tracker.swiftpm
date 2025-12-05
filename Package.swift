@@ -8,18 +8,19 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "USH Tracker",
+    name: "USHTrackerShow",
     platforms: [
-        .iOS("16.0")
+        .iOS("17.0")
     ],
     products: [
         .iOSApplication(
-            name: "USH Tracker",
+            name: "USHTrackerShow",
             targets: ["AppModule"],
-            bundleIdentifier: "clc.USH-Tracker",
+            bundleIdentifier: "clc.USHTrackerShow",
+            teamIdentifier: "LKW7UKGZ29",
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .cloud),
+            appIcon: .asset("AppIcon"),
             accentColor: .presetColor(.mint),
             supportedDeviceFamilies: [
                 .pad,

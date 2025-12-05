@@ -7,12 +7,26 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct AnswerButtonView: View {
+    let text: String
+    let action: () -> Void
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: action) {
+            ZStack {
+                RoundedRectangle(cornerRadius: 12)
+                    .foregroundStyle(.blue)
+                    .aspectRatio(2, contentMode: .fit)
+
+                Text(text)
+                    .foregroundColor(.white)
+                    .font(.title2)
+                    .minimumScaleFactor(0.5)
+            }
+        }
+        .frame(maxWidth: .infinity)
     }
 }
 
 #Preview {
-    SwiftUIView()
+    //AnswerButtonView(text: .constant("hi"))
 }
